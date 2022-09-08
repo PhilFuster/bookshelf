@@ -1,9 +1,10 @@
 import styled from '@emotion/styled/macro'
-import {keyframes} from '@emotion/react'
+import {keyframes} from '@emotion/core'
 import * as colors from 'styles/colors'
 import * as mq from 'styles/media-queries'
 import {Dialog as ReachDialog} from '@reach/dialog'
 import {FaSpinner} from 'react-icons/fa'
+
 const ButtonVariants = {
   primary: {
     background: colors.indigo,
@@ -14,6 +15,7 @@ const ButtonVariants = {
     color: colors.text,
   },
 }
+
 const Button = styled.button(
   {
     padding: '10px 15px',
